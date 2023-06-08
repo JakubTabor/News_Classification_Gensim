@@ -9,3 +9,4 @@ I gonna use pre trained word2vec model to preprocess the text and vectorize it
 # So I set continue to ignore them and list will be filling with Lemmatized tokens, so  base forms of tokens
 # And I apply on my filtered_tokens "get_mean_vector" function, its function from my model, "preprocess_and_vectorize" function will return me exzactly this
 # Now I check samples, what I get from my function before vectorization and after vectorization and check shape of it
+# I gonna create new column based on my "Text column", so I use function apply and lambda to apply "preprocess and vectorize" function on my "text"
