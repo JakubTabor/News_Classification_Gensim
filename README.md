@@ -4,3 +4,4 @@ I gonna use pre trained word2vec model to preprocess the text and vectorize it
 # Then I change label column into numeric values mapping label column into 0 and 1 and check change in my dataset
 # Next I load large eanglish model from spacy, It is trained on huge dataset
 # Now I gonna define function that will preprocess and vectorize my whole dataset
+# So first I put my text into nlp object, then I create empty list for my new text already tokenized, preprocess and vectorized
