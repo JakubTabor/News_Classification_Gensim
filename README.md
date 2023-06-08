@@ -8,3 +8,4 @@ I gonna use pre trained word2vec model to preprocess the text and vectorize it
 # Then I make for loop on every token in my nlp object, it will be skipping stopwords and punctuation words
 # So I set continue to ignore them and list will be filling with Lemmatized tokens, so  base forms of tokens
 # And I apply on my filtered_tokens "get_mean_vector" function, its function from my model, "preprocess_and_vectorize" function will return me exzactly this
+# Now I check samples, what I get from my function before vectorization and after vectorization and check shape of it
