@@ -16,3 +16,4 @@ I gonna use pre trained word2vec model to preprocess the text and vectorize it
 # I put true and y_pred data to my "classification report" and get results, score of true and predicted class are very high
 # I don't need to change my classifier 
 # Now I gonna take some samples from my data and store it into variable text, then I use "preprocess_and_vectorize" function on it and predict results
+# My model work very good
