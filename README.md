@@ -19,3 +19,4 @@ I gonna use pre trained word2vec model to preprocess the text and vectorize it
 # My model work very good
 # Then I gonna import "confusion_matrix" and look at results, diagonal values are good predictions, everything is alright 
 # I also gonna plot my "confusion_matrix" for more visuality, so I import "pylot" and "seaborn", set size of of images 
+# Then I supply "confusion_matrix" results, named labels and I look what I get, black squares are false predictions and bright are correct predictions
