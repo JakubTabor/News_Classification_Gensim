@@ -11,3 +11,4 @@ I gonna use pre trained word2vec model to preprocess the text and vectorize it
 # Now I check samples, what I get from my function before vectorization and after vectorization and check shape of it
 # I gonna create new column based on my "Text column", so I use function apply and lambda to apply "preprocess and vectorize" function on my "text"
 # Then I import "train_test_split" and get train and test set and stratify my "y" to get equal number of samples 
+# Next I gonna stack my X_train and X_test to convert it into 2d object, so I create new variable and show results
