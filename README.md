@@ -18,3 +18,4 @@ I gonna use pre trained word2vec model to preprocess the text and vectorize it
 # Now I gonna take some samples from my data and store it into variable text, then I use "preprocess_and_vectorize" function on it and predict results
 # My model work very good
 # Then I gonna import "confusion_matrix" and look at results, diagonal values are good predictions, everything is alright 
+# I also gonna plot my "confusion_matrix" for more visuality, so I import "pylot" and "seaborn", set size of of images 
